@@ -11,6 +11,6 @@ You were just hired as a Senior Developer for a Company called Nodemon Servers. 
 - Debug! - Use the Debug Terminal to help with your debugging skills.
 - There are 7 main errors to find.
 
-You will need to use the postman export provided for you (in the `Postman` folder) to test out every endpoint to make sure they are functioning. Some errors will only show up if you are using the endpoit.
+You will need to use the postman export provided for you (in the `Postman` folder) to test out every endpoint to make sure they are functioning. Some errors will only show up if you are using the endpoint.
 
 Happy hacking!
