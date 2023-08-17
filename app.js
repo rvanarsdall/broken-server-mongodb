@@ -10,6 +10,6 @@ const db = mongoose.connection;
 
 db.once("open", () => console.log("Connected to the DB"));
 
-app.use(express.json());
+
 app.use("/user", userController);
 app.use("/game", gameController);
