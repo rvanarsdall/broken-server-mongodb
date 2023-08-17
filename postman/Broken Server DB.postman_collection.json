@@ -216,7 +216,7 @@
 					"response": []
 				},
 				{
-					"name": "localhost:4000/movie/update/:id",
+					"name": "localhost:4000/game/update/:id",
 					"request": {
 						"method": "PATCH",
 						"header": [
