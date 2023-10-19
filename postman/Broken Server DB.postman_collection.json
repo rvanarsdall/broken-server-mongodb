@@ -16,7 +16,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"firstName\": \"Rob\",\n    \"lastName\": \"V\",\n    \"email\": \"test2@test.com\",\n    \"password\": \"test1234\"\n}",
+							"raw": "{\n    \"firstName\": \"Ian\",\n    \"lastName\": \"Touring\",\n    \"email\": \"test@test.com\",\n    \"password\": \"test1234\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -43,7 +43,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"email\": \"test2@test.com\",\n    \"password\": \"test1234\"\n}",
+							"raw": "{\n    \"email\": \"test@test.com\",\n    \"password\": \"test1234\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -69,7 +69,7 @@
 			"name": "Game",
 			"item": [
 				{
-					"name": "localhost:4000/game/add",
+					"name": "Add New Game",
 					"request": {
 						"method": "POST",
 						"header": [
@@ -81,7 +81,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\"game\": {\n     \"title\": \"Mario Brothers\",\n      \"studio\": \"Nintendo\",\n      \"user_rating\": 5,\n      \"have_played\": true\n}}",
+							"raw": "{\"game\": {\n     \"title\": \"Code Bros\",\n      \"studio\": \"Nintendo\",\n      \"user_rating\": 5,\n      \"have_played\": true\n}}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -102,7 +102,7 @@
 					"response": []
 				},
 				{
-					"name": "localhost:4000/game/",
+					"name": "View All Games",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -117,7 +117,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"movieTitle\": \"Jurassic Park\",\n    \"movieDescription\": \"About dinosaurs\",\n    \"movieYear\": 2022,\n    \"isCurrentlyInTheaters\": false,\n    \"rating\": 8\n}",
+							"raw": "",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -139,7 +139,7 @@
 					"response": []
 				},
 				{
-					"name": "localhost:4000/game/owner",
+					"name": "Get All Games by Owner ID",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -176,7 +176,7 @@
 					"response": []
 				},
 				{
-					"name": "localhost:4000/movie/",
+					"name": "Delete Game By Id",
 					"request": {
 						"method": "DELETE",
 						"header": [
@@ -216,7 +216,7 @@
 					"response": []
 				},
 				{
-					"name": "localhost:4000/game/update/:id",
+					"name": "Update Game By Id",
 					"request": {
 						"method": "PATCH",
 						"header": [
@@ -228,7 +228,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"title\": \"Spiderman II\"\n    \n}",
+							"raw": "{\n    \"title\": \"Spiderman II - Rob Saves The Universe\"\n    \n}",
 							"options": {
 								"raw": {
 									"language": "json"
